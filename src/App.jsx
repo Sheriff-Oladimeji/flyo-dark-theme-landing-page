@@ -2,10 +2,10 @@ import {CTA, Business,Testimonials, Hero, Services, Navbar, Footer} from './comp
 
 const App = () => {
   return (
-    <div>
-      <div className="bg-DarkBlueIntro w-full h-[140px]">
+    <div className='p-6 px-6 md:px-8  bg-DarkBlueIntro w-full text-[14px]'>
+     
         <Navbar />
-      </div>
+   
     </div>
   );
 };
