@@ -1,9 +1,10 @@
-import React from 'react'
-
+import { intro } from "../assets";
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <div className="flex justify-center mt-6">
+      <img src={intro} alt="hero" className=" w-[80%]md:w-[40%] " />
+    </div>
+  );
+};
 
-export default Hero
+export default Hero;
