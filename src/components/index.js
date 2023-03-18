@@ -5,5 +5,5 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Main from "./Main";
 import Services from "./Services";
-
-export {CTA, Business,Testimonials, Services, Navbar, Footer, Main}
+import Hero from "./Hero";
+export {CTA, Business,Testimonials, Services, Navbar, Footer, Main, Hero}

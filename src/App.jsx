@@ -6,13 +6,15 @@ import {
   Services,
   Navbar,
   Footer,
+  Hero,
 } from "./components";
 
 const App = () => {
   return (
-    <div className="bg-DarkBlueIntro text-[14px] py-6">
+    <div className="bg-DarkBlueIntro text-[14px] py-6 overflow-hidden">
       <Navbar />
-      <Main/>
+      <Hero/>
+      <Main />
     </div>
   );
 };
