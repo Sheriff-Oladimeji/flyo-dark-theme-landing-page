@@ -2,17 +2,17 @@ import {
   CTA,
   Business,
   Testimonials,
-  Hero,
+  Main,
   Services,
   Navbar,
   Footer,
-  About,
 } from "./components";
 
 const App = () => {
   return (
     <div className="bg-DarkBlueIntro text-[14px] py-6">
       <Navbar />
+      <Main/>
     </div>
   );
 };
