@@ -11,21 +11,21 @@ const Main = () => {
           <br className="hidden md:block" />
           accessible anywhere.
         </h1>
-        <p className="text-gray-200 text-[16px] font-normal font-body text-center max-w-[450px] mt-4 z-20">
+        <p className="text-White text-[16px] font-normal font-body text-center max-w-[450px] mt-4 z-20">
           Flyo stores all your most important files in one secure location.
           Access them whenever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <Button value="Get Started" style="z-20  mb-0 md:mb-[180px]" />
+        <Button value="Get Started" style="z-20  mb-0 md:mb-[120px]" />
       </div>
-      <div className="w-screen h-auto absolute right-0 bottom-0 z-10 md:hidden ">
+      {/* <div className="w-screen h-auto absolute right-0 bottom-0 z-10 md:hidden ">
         <img
           className="w-full bg-no-repeat bg-right-top  bg-cover"
           src={mobile}
           alt="curvy shape background"
         />
-      </div>
-      <div className="w-screen h-auto absolute right-0 bottom-0 z-10 xs:hidden  md:block">
+      </div> */}
+      <div className="w-screen h-auto absolute right-0 bottom-0 z-10 ">
         <img
           className="w-full bg-no-repeat bg-right-top  bg-cover"
           src={desktop}
