@@ -8,15 +8,18 @@ import {
   Footer,
   About,
 } from "./components";
-import { mobile, desktop } from "./assets";
+import styles from "./style";
+import "./index.css"
+
 const App = () => {
   return (
-    <div className="bg-DarkBlueIntro text-[14px] p-6">
-      <div className="px-6 md:px-12 w-full ">
+    <div className="bg-DarkBlueIntro text-[14px] py-6">
+      <div className={styles.container}>
         <Navbar />
         <Hero />
       </div>
-      <section className={`bg-DarkBlueMain`}>
+
+      <section className={`w-full ${styles.container}`}>
         <About />
       </section>
     </div>

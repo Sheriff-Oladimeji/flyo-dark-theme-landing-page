@@ -4,6 +4,11 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      backgroundImage: {
+        mobile: "url('./assets/bg-curvy-mobile.svg')",
+        desktop: "url('./assets/bg-curvy-desktop.svg')",
+      },
+
       colors: {
         DarkBlueIntro: "hsl(217, 28%, 15%)",
         DarkBlueMain: "hsl(218, 28%, 13%)",
