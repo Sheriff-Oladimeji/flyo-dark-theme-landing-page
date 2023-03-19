@@ -1,5 +1,4 @@
 import {
-  CTA,
   Business,
   Testimonials,
   Main,
@@ -16,6 +15,7 @@ const App = () => {
       <Services />
       <Business/>
       <Testimonials/>
+      <Footer/>
     </div>
   );
 };

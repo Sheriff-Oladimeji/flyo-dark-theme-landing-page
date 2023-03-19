@@ -1,8 +1,10 @@
-import React from 'react'
+import CTA from "./CTA"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <CTA/>
+    </footer>
   )
 }
 
