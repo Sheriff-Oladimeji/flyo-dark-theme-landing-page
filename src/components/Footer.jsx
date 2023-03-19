@@ -1,9 +1,12 @@
 import CTA from "./CTA"
-
+import { logo } from "../assets"
 const Footer = () => {
   return (
-    <footer>
+    <footer className="relative">
       <CTA/>
+      <div>
+<img src={logo} alt="" />
+      </div>
     </footer>
   )
 }
