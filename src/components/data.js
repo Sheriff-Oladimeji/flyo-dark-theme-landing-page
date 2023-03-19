@@ -33,10 +33,22 @@ const navElement = [
  ]
  const testimonials = [
   {
-    text: 
-    img: 
-    name: 
-    role:
-  }
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    img: profile1,
+    name: "Satish Patel",
+    role: " Founder & CEO, Huddle"
+  },
+  {
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    img: profile2,
+    name: "Bruce McKenzie",
+    role: " Founder & CEO, Huddle"
+  },
+  {
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    img: profile3,
+    name: " Iva Boyd",
+    role: " Founder & CEO, Huddle"
+  },
  ]
 export {navElement, services}
