@@ -1,8 +1,21 @@
-import React from 'react'
+import { testimonials } from "./data"
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+  <article>
+    <div>{testimonials.map((card) =>{
+      <div>
+        <p>{card.text}</p>
+        <div>
+          <img src={card.img} alt="" />
+          <div>
+            <h3>{card.name}</h3>
+            <p>{card.role}</p>
+          </div>
+        </div>
+      </div>
+    })}</div>
+  </article>
   )
 }
 
