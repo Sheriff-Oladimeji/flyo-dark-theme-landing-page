@@ -9,4 +9,7 @@ import collaboration from "./icon-collaboration.svg"
 import any from "./icon-any-file.svg"
 import productive from "./illustration-stay-productive.png"
 import arrow from "./icon-arrow.svg"
-export {logo, quotes, intro, mobile, desktop, access,security, collaboration, any, productive, arrow}
+import profile1 from "./profile-1.jpg"
+import profile2 from "./profile-2.jpg"
+import profile3 from "./profile-3.jpg"
+export {logo, quotes, intro, mobile, desktop, access,security, collaboration, any, productive, arrow, profile1, profile2, profile3}

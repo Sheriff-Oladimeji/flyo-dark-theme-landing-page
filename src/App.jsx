@@ -15,6 +15,7 @@ const App = () => {
       <Main />
       <Services />
       <Business/>
+      <Testimonials/>
     </div>
   );
 };

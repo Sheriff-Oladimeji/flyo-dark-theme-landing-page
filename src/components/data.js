@@ -1,4 +1,4 @@
-import { any,collaboration, access, security } from "../assets";
+import { any,collaboration, access, security , profile1, profile2, profile3} from "../assets";
 const navElement = [
   { id: 1, text: "Features" },
   { id: 1, text: "Team" },
@@ -30,5 +30,13 @@ const navElement = [
     text: "Whether you're sharing holidays photos or work documents, Flyo has you covered allowing for all file types to be securely stored and shared."
   },
 
+ ]
+ const testimonials = [
+  {
+    text: 
+    img: 
+    name: 
+    role:
+  }
  ]
 export {navElement, services}
