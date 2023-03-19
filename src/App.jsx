@@ -10,12 +10,11 @@ import {
 
 const App = () => {
   return (
-    <div className="bg-DarkBlueIntro text-[14px] py-6 overflow-hidden">
+    <div className="bg-DarkBlueIntro text-[14px] pt-6 overflow-hidden">
       <Navbar />
-     
-     <Main />
- <Services/>
-  
+      <Main />
+      <Services />
+      <Business/>
     </div>
   );
 };

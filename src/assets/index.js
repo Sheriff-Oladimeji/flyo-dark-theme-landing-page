@@ -7,4 +7,5 @@ import access from "./icon-access-anywhere.svg"
 import security from "./icon-security.svg"
 import collaboration from "./icon-collaboration.svg"
 import any from "./icon-any-file.svg"
-export {logo, quotes, intro, mobile, desktop, access,security, collaboration, any}
+import productive from "./illustration-stay-productive.png"
+export {logo, quotes, intro, mobile, desktop, access,security, collaboration, any, productive}
