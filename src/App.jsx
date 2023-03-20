@@ -16,10 +16,10 @@ const App = () => {
       <Services />
       <Business/>
       <Testimonials/>
-    <div>
+    
       <CTA/>
       <Footer/>
-    </div>
+    
     </div>
   );
 };
