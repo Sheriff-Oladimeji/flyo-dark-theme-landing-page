@@ -93,27 +93,21 @@ const linkOne = [
     id: 4,
     link: "Blog",
   },
- 
-]
+];
 
 const linkTwo = [
   {
     id: 1,
-    link: "About Us",
+    link: "Contact Us",
   },
   {
     id: 2,
-    link: "Jobs",
+    link: "Terms",
   },
   {
     id: 3,
-    link: "Press",
+    link: "Privacy",
   },
-  {
-    id: 4,
-    link: "Blog",
-  },
- 
-]
+];
 
-export { navElement, services, testimonials, contacts };
+export { navElement, services, testimonials, contacts , linkOne, linkTwo};
