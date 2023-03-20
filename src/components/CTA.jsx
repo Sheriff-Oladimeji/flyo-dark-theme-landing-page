@@ -1,6 +1,14 @@
 import Button from "./Button";
 
 const CTA = () => {
+  function handleClick(e){
+  e.preventDefault()
+    const input = document.getElementById("input")
+    const error = document.getElementById('error')
+if(input.value.trim() === ""){
+  error.innerText = "Email cannot be empty"
+}
+  }
   return (
 <article className="bg-DarkBlueMain w-full relative flex justify-center">
     <div className="text-White bg-DarkBlueIntro w-[90%] md:w-[50%] mx-auto shadow rounded-[10px] absolute -bottom-36 py-12 md:py-8 px-6">
@@ -11,10 +19,10 @@ const CTA = () => {
           be happy to help you.
         </p>
       </div>
-      <form className="flex flex-col md:flex-row items-center">
+      <form className="flex flex-col md:flex-row items-center" onSubmit={handleClick}>
         <div className="w-[90%] md:w-[60%]">
-        <input type="text" placeholder="example@email.com" className="w-[100%] p-[10px] rounded-full"/>
-        <small></small>
+        <input type="text" placeholder="example@email.com" className="w-[100%] p-[10px] rounded-full outline-none text-black" id="input"/>
+        <small id="error" className="pt-2 text-[12px] text-LightRed"></small>
         </div>
         <Button value="Get Started from free" style="w-[90%] md:w-[40%]"/>
       </form>

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="text-White bg-DarkBlueFooter pb-20 pt-48">
       <div className="w-[90%] md:w-[80%] mx-auto">
 <img src={logo} alt="" />
-<div className="mt-6 flex  flex-col md:flex-row md:justify-between space-y-8 md:space-y-0">
+<div className="mt-8 flex  flex-col md:flex-row md:justify-between space-y-8 md:space-y-0">
   <div className="flex flex-col md:flex-row gap-6">
     <div className="flex items-start gap-4">
 <img src={location} alt="location" />
@@ -23,10 +23,10 @@ const Footer = () => {
 </div>
   </div>
   <div>{linkOne.map(link=>{
-   return  <a className="text-white block  mb-3 hover:font-bold" href="#" key={link.id}>{link.link}</a>
+   return  <a className="text-white block  mb-3 hover:font-bold text-[16px] font-heading" href="#" key={link.id}>{link.link}</a>
   })}</div>
   <div>{linkTwo.map((value) => {
-    return <a className="text-white block  mb-3 hover:font-bold" href="#">{value.link}</a>
+    return <a className="text-white block  mb-3 hover:font-bold  text-[16px] font-heading" href="#">{value.link}</a>
   })}</div>
   <div></div>
 </div>
