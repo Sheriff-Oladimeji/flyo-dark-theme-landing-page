@@ -23,10 +23,10 @@ const Footer = () => {
 </div>
   </div>
   <div>{linkOne.map(link=>{
-   return  <a className="text-white block  mb-3" href="#" key={link.id}>{link.link}</a>
+   return  <a className="text-white block  mb-3 hover:font-bold" href="#" key={link.id}>{link.link}</a>
   })}</div>
   <div>{linkTwo.map((value) => {
-    return <a className="text-white block  mb-3" href="#">{value.link}</a>
+    return <a className="text-white block  mb-3 hover:font-bold" href="#">{value.link}</a>
   })}</div>
   <div></div>
 </div>
