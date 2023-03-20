@@ -2,9 +2,9 @@ import CTA from "./CTA"
 import { logo } from "../assets"
 const Footer = () => {
   return (
-    <footer className="relative">
+    <footer className="relative bg-DarkBlueFooter z-20">
       <CTA/>
-      <div>
+      <div className="z-10">
 <img src={logo} alt="" />
       </div>
     </footer>

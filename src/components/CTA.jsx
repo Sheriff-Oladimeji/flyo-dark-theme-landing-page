@@ -3,7 +3,7 @@ import Button from "./Button"
 const CTA = () => {
   return (
     <section className="text-White bg-DarkBlueMain">
-<div className="w-[90%] md:w-[70%]  mx-auto bg-DarkBlueIntro">
+<div className="w-[90%] md:w-[70%]  mx-auto bg-DarkBlueIntro z-30">
   <div className="w-[80%] mx-auto text-center">
 <h2 className="text-white font-bold font-heading text-[1.5rem] text-center">Get early access today</h2>
 <p className="font-normal font-body max-w-[600px] text-center"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
