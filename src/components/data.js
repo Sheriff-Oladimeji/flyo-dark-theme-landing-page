@@ -51,5 +51,13 @@ const navElement = [
     role: " Founder & CEO, Huddle"
   },
  ]
+ const footer = [
+  {
+    about: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {
+    phon
+  }
+ ]
 
 export {navElement, services, testimonials}
