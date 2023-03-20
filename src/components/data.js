@@ -67,16 +67,11 @@ const testimonials = [
 const contacts = [
   {
     id: 1,
-    icon: location,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    id: 2,
     icon: phone,
     text: "+1-543-123-4567",
   },
   {
-    id: 3,
+    id: 2,
     icon: email,
     text: "example@fylo.com",
   },
