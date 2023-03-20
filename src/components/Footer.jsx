@@ -3,10 +3,10 @@ import { logo, location} from "../assets"
 import { contacts, linkOne, linkTwo} from "./data"
 const Footer = () => {
   return (
-    <footer className="text-White bg-DarkBlueFooter pt-20">
+    <footer className="text-White bg-DarkBlueFooter pb-20 pt-36">
       <div className="w-[90%] md:w-[80%] mx-auto">
 <img src={logo} alt="" />
-<div className="mt-6 flex  flex-col md:flex-row md:justify-between">
+<div className="mt-6 flex  flex-col md:flex-row md:justify-between space-y-8 md:space-y-0">
   <div className="flex flex-col md:flex-row gap-6">
     <div className="flex items-start gap-4">
 <img src={location} alt="location" />
