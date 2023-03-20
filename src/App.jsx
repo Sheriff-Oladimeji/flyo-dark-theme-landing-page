@@ -16,7 +16,6 @@ const App = () => {
       <Services />
       <Business/>
       <Testimonials/>
-    
       <CTA/>
       <Footer/>
     

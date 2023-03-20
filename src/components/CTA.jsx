@@ -3,7 +3,7 @@ import Button from "./Button";
 const CTA = () => {
   return (
 <article className="bg-DarkBlueMain w-full relative flex justify-center">
-    <div className="text-White bg-DarkBlueIntro w-[90%] md:w-[50%] mx-auto shadow rounded-[6px] absolute -bottom-8">
+    <div className="text-White bg-DarkBlueIntro w-[90%] md:w-[50%] mx-auto shadow rounded-[6px] absolute -bottom-36 py-12 md:py-8 px-6">
       <div>
         <h2 className="text-center text-[1.5rem] font-bold font-heading">Get early access today</h2>
         <p className="font-normal text-center font-body">
