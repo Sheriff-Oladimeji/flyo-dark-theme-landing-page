@@ -12,4 +12,7 @@ import arrow from "./icon-arrow.svg"
 import profile1 from "./profile-1.jpg"
 import profile2 from "./profile-2.jpg"
 import profile3 from "./profile-3.jpg"
-export {logo, quotes, intro, mobile, desktop, access,security, collaboration, any, productive, arrow, profile1, profile2, profile3}
+import email from "./icon-email.svg"
+import phone from "./icon-phone.svg"
+import location from "./icon-location.svg"
+export {logo, quotes, intro, mobile, desktop, access,security, collaboration, any, productive, arrow, profile1, profile2, profile3, location, phone, email}
