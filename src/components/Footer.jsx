@@ -3,7 +3,7 @@ import { logo, location} from "../assets"
 import { contacts, linkOne, linkTwo} from "./data"
 const Footer = () => {
   return (
-    <footer className="text-White bg-DarkBlueFooter pb-20 pt-36">
+    <footer className="text-White bg-DarkBlueFooter pb-20 pt-48">
       <div className="w-[90%] md:w-[80%] mx-auto">
 <img src={logo} alt="" />
 <div className="mt-6 flex  flex-col md:flex-row md:justify-between space-y-8 md:space-y-0">
