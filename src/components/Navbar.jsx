@@ -8,7 +8,7 @@ const Navbar = () => {
 <img src={logo} alt="logo" className="w-[120px]" />
 <div className="flex space-x-8  md:space-x-12">
   {navElement.map((nav)=>(
-   <a className="text-White hover:font-bold cursor-pointer">{nav.text}</a>
+   <a className="text-White hover:font-bold cursor-pointer hover:underline">{nav.text}</a>
   ))}
 </div>
    </nav> 
