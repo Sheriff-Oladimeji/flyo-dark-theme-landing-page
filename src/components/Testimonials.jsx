@@ -2,9 +2,9 @@ import { testimonials } from "./data"
 import { quotes } from "../assets"
 const Testimonials = () => {
   return (
-  <article className="text-White bg-DarkBlueMain relative pb-[200px]">
+  <article className="text-White bg-DarkBlueMain relative">
 
-    <div className="grid md:grid-cols-3 w-[80%] justify mx-auto gap-8 py-12 relative">
+    <div className="grid md:grid-cols-3 w-[80%] justify mx-auto gap-8 py-12 relative pb-[200px]">
     <img src={quotes} alt=""  className="absolute top-6 left-0 z-10  w-[10%] md:w-[4%]"/>
       {testimonials.map((card) =>{
        return <div key={card.name} className="text-[14px] font-body bg-DarkBlueTestimonials  px-6 py-6 z-30 rounded-[6px]">
