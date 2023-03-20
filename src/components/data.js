@@ -76,5 +76,44 @@ const contacts = [
     text: "example@fylo.com",
   },
 ];
+const linkOne = [
+  {
+    id: 1,
+    link: "About Us",
+  },
+  {
+    id: 2,
+    link: "Jobs",
+  },
+  {
+    id: 3,
+    link: "Press",
+  },
+  {
+    id: 4,
+    link: "Blog",
+  },
+ 
+]
+
+const linkTwo = [
+  {
+    id: 1,
+    link: "About Us",
+  },
+  {
+    id: 2,
+    link: "Jobs",
+  },
+  {
+    id: 3,
+    link: "Press",
+  },
+  {
+    id: 4,
+    link: "Blog",
+  },
+ 
+]
 
 export { navElement, services, testimonials, contacts };
