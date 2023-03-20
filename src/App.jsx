@@ -5,6 +5,7 @@ import {
   Services,
   Navbar,
   Footer,
+  CTA,
 } from "./components";
 
 const App = () => {
@@ -15,7 +16,10 @@ const App = () => {
       <Services />
       <Business/>
       <Testimonials/>
+    <div>
+      <CTA/>
       <Footer/>
+    </div>
     </div>
   );
 };

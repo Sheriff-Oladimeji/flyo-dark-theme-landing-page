@@ -2,7 +2,7 @@ import { testimonials } from "./data"
 import { quotes } from "../assets"
 const Testimonials = () => {
   return (
-  <article className="text-White bg-DarkBlueMain relative">
+  <article className="text-White bg-DarkBlueMain relative pb-[200px]">
 
     <div className="grid md:grid-cols-3 w-[80%] justify mx-auto gap-8 py-12 relative">
     <img src={quotes} alt=""  className="absolute top-6 left-0 z-10  w-[10%] md:w-[4%]"/>
