@@ -19,9 +19,9 @@ if(input.value.trim() === ""){
           be happy to help you.
         </p>
       </div>
-      <form className="flex flex-col md:flex-row items-center" onSubmit={handleClick}>
+      <form className="flex flex-col md:flex-row items-center md:gap-4" onSubmit={handleClick}>
         <div className="w-[90%] md:w-[60%]">
-        <input type="text" placeholder="example@email.com" className="w-[100%] p-[10px] rounded-full outline-none text-black" id="input"/>
+        <input type="text" placeholder="example@email.com" className="w-[100%] p-[10px] rounded-full outline-none text-black mt-6" id="input"/>
         <small id="error" className="pt-2 text-[12px] text-LightRed"></small>
         </div>
         <Button value="Get Started from free" style="w-[90%] md:w-[40%]"/>
