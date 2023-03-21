@@ -1,8 +1,7 @@
 import CTA from "./CTA"
 import { logo, location} from "../assets"
 import { contacts, linkOne, linkTwo} from "./data"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+
 const Footer = () => {
   return (
     <footer className="text-White bg-DarkBlueFooter pb-20 pt-48">
@@ -30,8 +29,11 @@ const Footer = () => {
   <div>{linkTwo.map((value) => {
     return <a className="text-white block  mb-3 hover:font-bold  text-[16px] font-heading" href="#">{value.link}</a>
   })}</div>
-  <div><FontAwesomeIcon icon={solid('user-secret')} /></div>
+  <div>
+  
+  </div>
 </div>
+
       </div>
     </footer>
   )
