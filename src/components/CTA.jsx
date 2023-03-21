@@ -8,6 +8,10 @@ const CTA = () => {
 if(input.value.trim() === ""){
   error.innerText = "Email cannot be empty"
 }
+else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value.trim()))
+  {
+    error.innerText = "Please enter a valid email address"
+  }
   }
   return (
 <article className="bg-DarkBlueMain w-full relative flex justify-center">
