@@ -35,10 +35,8 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [Viw Solution](https://github.com/Sheriff-Oladimeji/fylo-dark-theme-landing-page)
+- Live Site URL: [Live site](https://fylo-dark-theme-landing-page-mauve-two.vercel.app/)
 
 ### Built with
 
@@ -48,8 +46,7 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Tailwind CSS](https://tailwindcss.com/)
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
