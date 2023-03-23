@@ -18,9 +18,9 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Screenshot
 
-![]()
+![](/src/assets/desktop.png)
 
-
+![](/src/assets/mobile.png)
 
 ### Links
 
@@ -40,9 +40,9 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/sheriffWebDev)
+- Github - [Sheriff-Oladimeji](https://github.com/Sheriff-Oladimeji)
+- Frontend Mentor - [@OladimejiSheriff](https://www.frontendmentor.io/profile/OladimejiSheriff)
+- Twitter - [@sheriffWebDev](https://www.twitter.com/sheriffWebDev)
 
 
 
