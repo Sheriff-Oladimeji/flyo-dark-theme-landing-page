@@ -23,8 +23,8 @@ else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value.trim(
           be happy to help you.
         </p>
       </div>
-      <form className="flex flex-col md:flex-row items-center md:gap-4" onSubmit={handleClick}>
-        <div className="w-[90%] md:w-[60%] mt-6">
+      <form className="flex flex-col md:flex-row items-center md:gap-4  " onSubmit={handleClick}>
+        <div className="w-[90%] md:w-[60%] mt-6 h-[56px]">
         <input type="text" placeholder="example@email.com" className="w-[100%] p-[15px] rounded-full outline-none text-black  placeholder:p-4" id="input"/>
         <small id="error" className="mt-4 text-[12px] text-LightRed"></small>
         </div>
